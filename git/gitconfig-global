@@ -1,0 +1,7 @@
+[user]
+  name = mentai-mayo
+  email = 102917864+mentai-mayo@users.noreply.github.com
+[core]
+  editor = code --wait
+[init]
+  defaultBranch = dev
