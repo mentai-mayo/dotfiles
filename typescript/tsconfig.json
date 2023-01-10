@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "es2022",
+    "module": "es2022",
+    "incremental": true,
+    "removeComments": true,
+    "strict": true,
+    "moduleResolution": "node",
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noUncheckedIndexedAccess": true,
+    "noImplicitOverride": true,
+    "forceConsistentCasingInFileNames": true,
+    "esModuleInterop": true,
+    "declaration": true,
+    "outDir": "tsbuild",
+  },
+  "include": [
+    "source/**/*.ts",
+    "source/**/*.mts",
+  ],
+  "exclude": [
+    "tsbuild",
+    "node_modules",
+  ]
+}
