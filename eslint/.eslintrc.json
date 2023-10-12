@@ -1,0 +1,22 @@
+{
+  "extends": [
+    "eslint:all"
+  ],
+
+  "rules": {
+    "no-namespace": "off",
+    "linebreak-style": "off",
+    "template-curly-spacing": "off",
+    "multiline-ternary": "off",
+    "no-underscore-dangle": "off",
+    "function-call-argument-newline": "off",
+    "one-var": "off",
+    "camelcase": "off",
+    "no-ternary": "off",
+    "indent": [ "error", 2 ],
+    "space-before-function-paren": "off",
+    "max-len": [ "warn", { "code": 128 } ],
+    "quotes": [ "error", "double", { "avoidEscape": true } ],
+    "padded-blocks": "off"
+  }
+}
