@@ -17,5 +17,8 @@
         "no-namespace" // namespaceを使うと怒られるやつ
       ]
     }
-  }
+  },
+
+  // lockfile
+  "lock": false
 }
