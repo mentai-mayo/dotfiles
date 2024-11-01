@@ -23,6 +23,9 @@ class Result<T, E extends Error> {
     }
     return this.value as T;
   }
+  union(): T | E {
+    return this.ok ? this.value as T : this.error as E;
+  }
 }
 
 async function main(args: CliArgs): Promise<number> {
