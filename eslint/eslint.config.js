@@ -85,6 +85,10 @@ const myconfig = {
     } ],
     // ブロック内の最初の行を空白行とするルールを無視
     "padded-blocks": "off",
+    // キー名をソートするルールを無視
+    "sort-keys": "off",
+    // コメント頭を大文字にしなくてはいけないルールを無視
+    "capitalized-comments": "off",
     // "any"を型アノテーションとして明示的に使用することを禁止
     "@typescript-eslint/no-explicit-any": [ "error", {
       // ただし ...args: any[] などの引数リストに使用することを許可
