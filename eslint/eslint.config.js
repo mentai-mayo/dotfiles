@@ -89,6 +89,15 @@ const myconfig = {
     "sort-keys": "off",
     // コメント頭を大文字にしなくてはいけないルールを無視
     "capitalized-comments": "off",
+    // 関数の書き方を function funcname() {} とする
+    "func-style": [ "error", "declaration", {
+      // アロー関数については var ident = () => {} 型を許容する
+      "allowArrowFunctions": true,
+      "overrides": {
+        // 名前付きエクスポートも function funcname() {} とする
+        "namedExports": "declaration",
+      }
+    } ],
     // "any"を型アノテーションとして明示的に使用することを禁止
     "@typescript-eslint/no-explicit-any": [ "error", {
       // ただし ...args: any[] などの引数リストに使用することを許可
