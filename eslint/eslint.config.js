@@ -35,7 +35,7 @@ const myconfig = {
     "no-namespace": "off",
     "@typescript-eslint/no-namespace": "off",
     // LFではなくCRLFのとき警告
-    "linebreak-style": [ "warn", "windows" ],
+    "linebreak-style": [ "warn", "unix" ],
     // 文字列テンプレートにて`${}`と式の間に空白がないとき警告
     "template-curly-spacing": [ "warn", "always" ],
     // 複数行にまたがる三項演算子のルールを無視
