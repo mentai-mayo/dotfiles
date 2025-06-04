@@ -78,9 +78,10 @@ setopt no_beep
 autoload -Uz history-search-end
 zle -N history-beginning-search-backward-end history-search-end
 zle -N history-beginning-search-forward-end history-search-end
-bindkey "^[[A" history-beginning-search-backward-end # https://zenn.dev/naoki_oshiumi/articles/c7a9a727b3e784
-bindkey "^[[B" history-beginning-search-forward-end  # 上に同じ
-bindkey "\e[Z" reverse-menu-complete                 # 補完選択時にshift-tabで逆戻り
+bindkey "^[[A"  history-beginning-search-backward-end # https://zenn.dev/naoki_oshiumi/articles/c7a9a727b3e784
+bindkey "^[[B"  history-beginning-search-forward-end  # 上に同じ
+bindkey "\e[Z"  reverse-menu-complete                 # 補完選択時にshift-tabで逆戻り
+bindkey "^[[3~" delete-char                           # deleteキーでカーソルの後ろの文字を消去
 
 # ----- END -----
 
