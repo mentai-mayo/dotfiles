@@ -3,10 +3,11 @@
   "deno.config": "deno.jsonc",
   "json.schemas": [{
     "fileMatch": [ "deno.jsonc" ],
-    "url": "https://deno.land/x/deno/cli/schemas/config-file.v1.json"
+    "url": "https://raw.githubusercontent.com/denoland/deno/refs/heads/main/cli/schemas/config-file.v1.json"
   }],
   "editor.defaultFormatter": "denoland.vscode-deno",
   "deno.suggest.imports.hosts": {
-    "https://deno.land": true
+    "https://deno.land": true,
+    "https://jsr.io": true
   }
 }
