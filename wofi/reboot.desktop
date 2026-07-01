@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=再起動 (Reboot)
+Comment=システムを再起動します
+Exec=systemctl reboot
+Icon=system-reboot
+Terminal=false
+Type=Application
+Categories=System;

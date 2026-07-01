@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=サスペンド (sleep)
+Comment=システムをスリープします
+Exec=systemctl suspend
+Icon=system-suspend
+Terminal=false
+Type=Application
+Categories=System;

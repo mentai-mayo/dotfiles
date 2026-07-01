@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=シャットダウン (power off)
+Comment=システムを終了します
+Exec=systemctl poweroff
+Icon=system-shutdown
+Terminal=false
+Type=Application
+Categories=System;

@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=休止状態 (hibernate)
+Comment=状態をディスクに保存して電源を切ります
+Exec=systemctl hibernate
+Icon=system-suspend-hibernate
+Terminal=false
+Type=Application
+Categories=System;
